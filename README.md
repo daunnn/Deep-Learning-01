@@ -11,7 +11,7 @@ Table of Contents
 
 -------
 
-LeNet-Basic
+##LeNet-Basic
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/bd14d1a6-28ee-4596-89b0-2fa7db7dc8c2" width="500"/>
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/50d9ea03-0795-478d-9220-042acb90677b" width="500"/>
@@ -69,20 +69,47 @@ The total number of parameters in the LeNet-5 model is 44,426.
 
 ------
 
-CustomMLP
+## CustomMLP
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/b6274945-3874-4ad9-8fbd-93c9e23a0967" width="500"/>
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/b39a8880-9497-4340-ad63-66801a1fc84e" width="500"/>
 </div>
+
 
 The CustomMLP model achieved the following performance metrics at Epoch 15:
 
 Train Loss: 0.0141, Train Acc: 99.53%
 Test Loss: 0.1059, Test Acc: 97.57%
 
+<img src= "https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/145a21a0-b04e-4e1d-8bf3-3469823e21cf" width="500"/>
+
+The number of parameters for each layer is as follows:
+fc1:
+
+Input size: 28 * 28 = 784
+Output size: 60
+Weight parameters: 784 * 60 = 47,040
+Bias parameters: 60
+Total parameters: 47,040 + 60 = 47,100
+fc2:
+
+Input size: 60
+Output size: 30
+Weight parameters: 60 * 30 = 1,800
+Bias parameters: 30
+Total parameters: 1,800 + 30 = 1,830
+fc3:
+
+Input size: 30
+Output size: 10
+Weight parameters: 30 * 10 = 300
+Bias parameters: 10
+Total parameters: 300 + 10 = 310
+Total Parameters
+The total number of parameters in the CustomMLP model is 49,240.
 ------
 
-LeNet-Regularization
+## LeNet-Regularization
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/1ac0f77e-233c-47ab-a06d-5e3673cf2295" width="500"/>
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/bd8c2f66-d60b-4bb0-9a37-2a3dbd039ce6" width="500"/>
@@ -95,7 +122,7 @@ Test Loss: 0.0273, Test Acc: 99.17%
 
 -----
 
-LeNet-Data Augmentation
+## LeNet-Data Augmentation
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/93fe0e62-74fe-47f7-91c8-e187bdf58592" width="500"/>
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/1cc55a04-68e1-435e-a8a3-cfd07812aac8" width="500"/>
