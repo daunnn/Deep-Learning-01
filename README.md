@@ -107,6 +107,8 @@ Bias parameters: 10
 Total parameters: 300 + 10 = 310
 Total Parameters
 The total number of parameters in the CustomMLP model is 49,240.
+
+
 ------
 
 ## LeNet-Regularization
