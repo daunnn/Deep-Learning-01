@@ -7,10 +7,9 @@ Table of Contents
 + CustomMLP
 + LeNet-Regularization
 + LeNet-Data Augmentation
-+ Conclusion
++ Summary
 
 -------
-
 ## LeNet-Basic
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/bd14d1a6-28ee-4596-89b0-2fa7db7dc8c2" width="500"/>
@@ -168,10 +167,20 @@ The model demonstrated enhanced robustness and was able to converge more consist
 
 -----
 
-## Conclusion
-The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches (Test Acc: 99.17%). 
+## Summary
 
-The application of regularization techniques improved the model's generalization ability. 
+- The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches (Test Acc: 99.17%). The application of regularization techniques improved the model's generalization ability. 
+
+- The activation function used in this assignment is Swish, which combines the properties of the identity function and the sigmoid function, offering improved training performance and faster convergence in deep learning models. Swish is a smooth activation function introduced by Google in 2017.
+
+<img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/32c0300e-65f8-4418-a53e-758168bfd927" width="500"/>
+
+- Reference
+  - https://eumgill98.tistory.com/22
+  - https://github.com/nh9k/pytorch-implementation/blob/master/1_lenet5/lenet5.py
+
+
+
 
 Furthermore, the model with data augmentation showed improved performance compared to the basic model, confirming the effectiveness of data augmentation techniques in enhancing model performance.
 
