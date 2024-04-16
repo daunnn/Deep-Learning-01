@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 from model import LeNet5, CustomMLP, LeNet5_regularization
 import dataset
-import dataset_regularization
+import dataset_augmentation
 import matplotlib.pyplot as plt
 
 def train(model, trn_loader, device, criterion, optimizer):
@@ -131,9 +131,9 @@ def main():
     train_dataset = dataset.MNIST(data_dir='../data/train/')
     test_dataset = dataset.MNIST(data_dir='../data/test/')
     
-    ############## Data augmentation 할 경우 #######
-#     train_dataset = dataset_regularization.MNIST(data_dir='../data/train/', is_train=True)
-#     test_dataset = dataset_regularization.MNIST(data_dir='../data/test/', is_train=False)
+    ############## Data augmentation 할 경우 ##############
+#     train_dataset = dataset_augmentation.MNIST(data_dir='../data/train/', is_train=True)
+#     test_dataset = dataset_augmentation.MNIST(data_dir='../data/test/', is_train=False)
 
     # Create DataLoader
     train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
