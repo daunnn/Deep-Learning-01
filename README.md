@@ -1,13 +1,13 @@
 # Deep-Learning_HW2
 
-This repository contains the implementation of the LeNet model using different approaches and compares their results.
+This repository contains the implementation of the LeNet model using different approaches and compares their results. 
 
 Table of Contents
-1. LeNet-Basic
-2. CustomMLP
-3. LeNet-Regularization
-4. LeNet-Data Augmentation
-5. Conclusion
++ LeNet-Basic
++ CustomMLP
++ LeNet-Regularization
++ LeNet-Data Augmentation
++ Conclusion
 
 -------
 
@@ -17,10 +17,54 @@ LeNet-Basic
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/50d9ea03-0795-478d-9220-042acb90677b" width="500"/>
 </div>
 
+
 The basic LeNet model achieved the following performance metrics at Epoch 15:
 
 Train Loss: 0.0069, Train Acc: 99.77%
 Test Loss: 0.0540, Test Acc: 98.91%
+
+![image](https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/3056a6ff-c1a3-4b67-aed5-ff28accab581)
+The number of parameters for each layer is as follows:
+1. **conv1:**
+   - Input channels: 1
+   - Kernel size: 5x5
+   - Output channels: 6
+   - Weight parameters: 5 * 5 * 1 * 6 = 150
+   - Bias parameters: 6
+   - Total parameters: 150 + 6 = 156
+
+2. **conv2:**
+   - Input channels: 6
+   - Kernel size: 5x5
+   - Output channels: 16
+   - Weight parameters: 5 * 5 * 6 * 16 = 2400
+   - Bias parameters: 16
+   - Total parameters: 2400 + 16 = 2,416
+
+3. **conv3:**
+   - Input channels: 16
+   - Kernel size: 4x4
+   - Output channels: 120
+   - Weight parameters: 4 * 4 * 16 * 120 = 30720
+   - Bias parameters: 120
+   - Total parameters: 30720 + 120 = 30,840
+
+4. **fc1:**
+   - Input size: 120
+   - Output size: 84
+   - Weight parameters: 120 * 84 = 10080
+   - Bias parameters: 84
+   - Total parameters: 10080 + 84 = 10,164
+
+5. **fc2:**
+   - Input size: 84
+   - Output size: 10
+   - Weight parameters: 84 * 10 = 840
+   - Bias parameters: 10
+   - Total parameters: 840 + 10 = 850
+
+### Total Parameters
+The total number of parameters in the LeNet-5 model is 44,426.
 
 ------
 
