@@ -137,7 +137,7 @@ Test Loss: 0.0273, Test Acc: 99.17%
 
 The use of both techniques results in similar training trends compared to the base LeNet model. 
 
-However, during the testing phase, the performance of the LeNet-Regularization model is notably improved. 
+However, during the testing phase, the performance of the LeNet-Regularization model is improved. 
 
 This improvement indicates that the regularization techniques effectively mitigate overfitting, leading to better generalization and higher accuracy on unseen data.
 
@@ -169,10 +169,9 @@ The model demonstrated enhanced robustness and was able to converge more consist
 -----
 
 ## Conclusion
-The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches. 
+The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches (Test Acc: 99.17%). 
 
 The application of regularization techniques improved the model's generalization ability. 
 
 Furthermore, the model with data augmentation showed improved performance compared to the basic model, confirming the effectiveness of data augmentation techniques in enhancing model performance.
 
-Feel free to explore the code and experiment with different configurations to further improve the results.
