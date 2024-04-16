@@ -135,9 +135,22 @@ The LeNet model with regularization achieved the following performance metrics a
 Train Loss: 0.0113, Train Acc: 99.64%
 Test Loss: 0.0273, Test Acc: 99.17%
 
+The use of both techniques results in similar training trends compared to the base LeNet model. 
+
+However, during the testing phase, the performance of the LeNet-Regularization model is notably improved. 
+
+This improvement indicates that the regularization techniques effectively mitigate overfitting, leading to better generalization and higher accuracy on unseen data.
+
 -----
 
 ## LeNet-Data Augmentation
+
+To augment the dataset and improve model generalization, the HorizontalFlip method was utilized. 
+
+    transforms.RandomHorizontalFlip()
+
+This technique randomly flips images horizontally during training, effectively increasing the diversity of the training dataset.
+
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/93fe0e62-74fe-47f7-91c8-e187bdf58592" width="500"/>
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/1cc55a04-68e1-435e-a8a3-cfd07812aac8" width="500"/>
@@ -148,9 +161,18 @@ The LeNet model with data augmentation achieved the following performance metric
 Train Loss: 0.0063, Train Acc: 99.78%
 Test Loss: 0.0443, Test Acc: 98.95%
 
+Despite the similarity in final test performance compared to LeNet-Basic, the training process with data augmentation exhibited more stable learning patterns. 
+
+The model demonstrated enhanced robustness and was able to converge more consistently during training, indicating the effectiveness of data augmentation in promoting better generalization and reducing overfitting tendencies.
+
+
 -----
 
-Conclusion
-The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches. The application of regularization techniques improved the model's generalization ability. Furthermore, the model with data augmentation showed improved performance compared to the basic model, confirming the effectiveness of data augmentation techniques in enhancing model performance.
+## Conclusion
+The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches. 
+
+The application of regularization techniques improved the model's generalization ability. 
+
+Furthermore, the model with data augmentation showed improved performance compared to the basic model, confirming the effectiveness of data augmentation techniques in enhancing model performance.
 
 Feel free to explore the code and experiment with different configurations to further improve the results.
