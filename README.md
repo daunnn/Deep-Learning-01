@@ -12,8 +12,8 @@ Table of Contents
 -------
 LeNet-Basic
 <div align="center">
-  ![LeNet5_accuracy_plot](https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/bd14d1a6-28ee-4596-89b0-2fa7db7dc8c2)
-  ![LeNet5_loss_plot](https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/50d9ea03-0795-478d-9220-042acb90677b)
+  <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/bd14d1a6-28ee-4596-89b0-2fa7db7dc8c2" width="400"/>
+  <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/50d9ea03-0795-478d-9220-042acb90677b" width="400"/>
 </div>
 The basic LeNet model achieved the following performance metrics at Epoch 15:
 
