@@ -84,28 +84,28 @@ Test Loss: 0.1059, Test Acc: 97.57%
 <img src= "https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/145a21a0-b04e-4e1d-8bf3-3469823e21cf" width="500"/>
 
 The number of parameters for each layer is as follows:
-fc1:
+1. **fc1:**
+   - Input size: 28 * 28 = 784
+   - Output size: 60
+   - Weight parameters: 784 * 60 = 47,040
+   - Bias parameters: 60
+   - Total parameters: 47,040 + 60 = 47,100
 
-Input size: 28 * 28 = 784
-Output size: 60
-Weight parameters: 784 * 60 = 47,040
-Bias parameters: 60
-Total parameters: 47,040 + 60 = 47,100
-fc2:
+2. **fc2:**
+   - Input size: 60
+   - Output size: 30
+   - Weight parameters: 60 * 30 = 1,800
+   - Bias parameters: 30
+   - Total parameters: 1,800 + 30 = 1,830
 
-Input size: 60
-Output size: 30
-Weight parameters: 60 * 30 = 1,800
-Bias parameters: 30
-Total parameters: 1,800 + 30 = 1,830
-fc3:
+3. **fc3:**
+   - Input size: 30
+   - Output size: 10
+   - Weight parameters: 30 * 10 = 300
+   - Bias parameters: 10
+   - Total parameters: 300 + 10 = 310
 
-Input size: 30
-Output size: 10
-Weight parameters: 30 * 10 = 300
-Bias parameters: 10
-Total parameters: 300 + 10 = 310
-Total Parameters
+### Total Parameters
 The total number of parameters in the CustomMLP model is 49,240.
 
 
