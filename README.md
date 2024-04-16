@@ -23,7 +23,8 @@ The basic LeNet model achieved the following performance metrics at Epoch 15:
 Train Loss: 0.0069, Train Acc: 99.77%
 Test Loss: 0.0540, Test Acc: 98.91%
 
-![image](https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/3056a6ff-c1a3-4b67-aed5-ff28accab581) {width=60%}
+![image](https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/3056a6ff-c1a3-4b67-aed5-ff28accab581){width=60%}
+
 The number of parameters for each layer is as follows:
 1. **conv1:**
    - Input channels: 1
