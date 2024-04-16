@@ -169,7 +169,7 @@ The model demonstrated enhanced robustness and was able to converge more consist
 
 ## Summary
 
-- The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches (Test Acc: 99.17%). The application of regularization techniques improved the model's generalization ability. 
+- The experimental results demonstrate that the LeNet-Regularization model outperformed the other approaches (Test Acc: 99.17%). The application of regularization techniques improved the model's generalization ability. Furthermore, the model with data augmentation showed improved performance compared to the basic model, confirming the effectiveness of data augmentation techniques in enhancing model performance.
 
 - The activation function used in this assignment is Swish, which combines the properties of the identity function and the sigmoid function, offering improved training performance and faster convergence in deep learning models. Swish is a smooth activation function introduced by Google in 2017.
 
@@ -182,5 +182,5 @@ The model demonstrated enhanced robustness and was able to converge more consist
 
 
 
-Furthermore, the model with data augmentation showed improved performance compared to the basic model, confirming the effectiveness of data augmentation techniques in enhancing model performance.
+
 
