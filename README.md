@@ -81,6 +81,8 @@ The CustomMLP model achieved the following performance metrics at Epoch 15:
 Train Loss: 0.0141, Train Acc: 99.53%
 Test Loss: 0.1059, Test Acc: 97.57%
 
+Compared to LeNet-Basic, the CustomMLP model exhibits slower convergence and slightly lower accuracy. This observation suggests that the CustomMLP architecture might require further optimization or adjustments.
+
 <img src= "https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/145a21a0-b04e-4e1d-8bf3-3469823e21cf" width="500"/>
 
 The number of parameters for each layer is as follows:
