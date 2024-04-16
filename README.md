@@ -112,6 +112,15 @@ The total number of parameters in the CustomMLP model is 49,240.
 ------
 
 ## LeNet-Regularization
+
+In this version of the LeNet model, regularization techniques such as Dropout and Batch Normalization were incorporated to improve performance and prevent overfitting.
+Dropout: Randomly sets a fraction of input units to zero during training to prevent overfitting.
+Batch Normalization: Normalizes the activations of each layer, improving training speed and stability while acting as a regularizer.
+
+
+    self.dropout = nn.Dropout(0.2)
+    self.conv1_bn = nn.BatchNorm2d(6)
+
 <div align="center">
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/1ac0f77e-233c-47ab-a06d-5e3673cf2295" width="500"/>
   <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/bd8c2f66-d60b-4bb0-9a37-2a3dbd039ce6" width="500"/>
