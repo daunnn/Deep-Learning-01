@@ -15,16 +15,16 @@ Table of Contents
 
 The dataset.py file contains code for loading and preprocessing the MNIST dataset for the LeNet model implementation. Here’s a breakdown of its main functions and usage:
 
-# Dataset Acquisition:
+### Dataset Acquisition:
 To use this code, you’ll need the MNIST dataset. You can download it from popular sources like MNIST from https://www.kaggle.com/datasets/hojjatk/mnist-dataset 
 
 Ensure that each image is stored as a .png file and named in the format {number}_{label}.png (e.g., 1234_5.png where 5 is the label).
 
-# Custom Dataset Class:
+### Custom Dataset Class:
 
 This file includes a custom dataset class for MNIST, which inherits from PyTorch’s Dataset class. The class loads images and labels directly from the specified directory.
 
-# Data Preprocessing:
+### Data Preprocessing:
 
 Images are preprocessed with the following transformations:
 
@@ -32,7 +32,7 @@ ToTensor: Converts images into PyTorch tensors and normalizes pixel values to th
 
 Normalization: Applies a mean of 0.1307 and standard deviation of 0.3081, matching the standard preprocessing for MNIST.
 
-# Label Extraction:
+### Label Extraction:
 
 The class extracts labels from each file name based on the format {number}_{label}.png, allowing automatic label loading from file names.
 
