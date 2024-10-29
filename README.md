@@ -1,4 +1,4 @@
-# Deep-Learning_HW2
+# Deep-Learning project 01 
 
 This repository contains the implementation of the LeNet model using different approaches and compares their results. 
 
