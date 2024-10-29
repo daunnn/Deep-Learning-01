@@ -1,6 +1,6 @@
-# Deep-Learning project 01 
+# Deep-Learning project: MNIST Digit Classification with LeNet
 
-This repository contains the implementation of the LeNet model using different approaches and compares their results. 
+This repository contains implementations of the LeNet model, a classic deep learning architecture designed for image recognition, to classify digits in the MNIST dataset. Different approaches, including basic architecture, custom multilayer perceptron (MLP), regularization techniques, and data augmentation, are applied and compared for performance.
 
 Table of Contents
 + Dataset
