@@ -175,9 +175,10 @@ The model demonstrated enhanced robustness and was able to converge more consist
 
 <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/32c0300e-65f8-4418-a53e-758168bfd927" width="500"/>
 
-## To Run the Example:
+## To Run the Example
 
-   python main.py
+    
+    python main.py
 
 - Reference
   - https://eumgill98.tistory.com/22
