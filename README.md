@@ -1,6 +1,8 @@
 # Deep-Learning project: MNIST Digit Classification with LeNet
 
-This repository contains implementations of the LeNet model, a classic deep learning architecture designed for image recognition, to classify digits in the MNIST dataset. Different approaches, including basic architecture, custom multilayer perceptron (MLP), regularization techniques, and data augmentation, are applied and compared for performance.
+This repository contains implementations of the LeNet model, a classic deep learning architecture designed for image recognition, to classify digits in the MNIST dataset. 
+
+Different approaches, including basic architecture, custom multilayer perceptron (MLP), regularization techniques, and data augmentation, are applied and compared for performance.
 
 Table of Contents
 + Dataset
@@ -16,7 +18,7 @@ Table of Contents
 The dataset.py file contains code for loading and preprocessing the MNIST dataset for the LeNet model implementation. Here’s a breakdown of its main functions and usage:
 
 ### Dataset Acquisition:
-To use this code, you’ll need the MNIST dataset. You can download it from popular sources like MNIST from https://www.kaggle.com/datasets/hojjatk/mnist-dataset 
+To use this code, you’ll need the MNIST dataset. You can download it from https://www.kaggle.com/datasets/hojjatk/mnist-dataset 
 
 Ensure that each image is stored as a .png file and named in the format {number}_{label}.png (e.g., 1234_5.png where 5 is the label).
 
