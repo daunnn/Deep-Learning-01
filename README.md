@@ -17,6 +17,7 @@ The dataset.py file contains code for loading and preprocessing the MNIST datase
 
 Dataset Acquisition:
 To use this code, you’ll need the MNIST dataset. You can download it from popular sources like MNIST from https://www.kaggle.com/datasets/hojjatk/mnist-dataset 
+
 Ensure that each image is stored as a .png file and named in the format {number}_{label}.png (e.g., 1234_5.png where 5 is the label).
 
 Custom Dataset Class:
