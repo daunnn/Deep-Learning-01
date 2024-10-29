@@ -11,7 +11,7 @@ Table of Contents
 + Summary
 
 -------
-## dataset
+## Dataset
 
 The dataset.py file contains code for loading and preprocessing the MNIST dataset for the LeNet model implementation. Here’s a breakdown of its main functions and usage:
 
