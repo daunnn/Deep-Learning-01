@@ -175,6 +175,10 @@ The model demonstrated enhanced robustness and was able to converge more consist
 
 <img src="https://github.com/daunnn/Deep-Learning_HW2/assets/98380084/32c0300e-65f8-4418-a53e-758168bfd927" width="500"/>
 
+## To Run the Example:
+
+   python main.py
+
 - Reference
   - https://eumgill98.tistory.com/22
   - https://github.com/nh9k/pytorch-implementation/blob/master/1_lenet5/lenet5.py
